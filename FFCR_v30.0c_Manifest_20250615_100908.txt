@@ -1,0 +1,31 @@
+# FFCR ModMed Automation Bundle v30.0c – Ready-to-Run Deployment
+
+## Overview 
+The FFCR (Full Face Chart Review) automation bundle **v30.0c** is now prepared for deployment using the following configuration:
+
+- ✅ **Confirmed Source**: Based on Canvas-locked Patient Activity extractor
+- ✅ **MRNs**: Loaded dynamically from `mrn_input.xlsx`; valid test MRNs ending in **60** and **61**
+- ✅ **ChromeDriver**: Version **137**, GUI mode only
+- ✅ **PDF Output**: Stored in `visit_activity/` folder
+- ✅ **Naming**: `{MRN}_{visit_date}.pdf` (no timestamp in filename per latest policy)
+
+---
+
+## File List
+
+| Filename                          | Purpose                                |
+|-----------------------------------|----------------------------------------|
+| `run_ffcr_modmed_v30_0c.py`       | Main Python extractor script           |
+| `launch_ffcr_v30_0c.bat`          | Double-click launcher                  |
+| `mrn_input.xlsx`                  | Input file for MRNs (must end in 60/61)|
+| `manifest_v30_0c.txt`             | This file                              |
+| `visit_activity/`                 | Output folder (auto-created)           |
+
+---
+
+## Important Notes
+
+- Do not alter MRNs unless authorized; live MRNs must never be used.
+- GUI Chrome must be present alongside `chromedriver.exe`.
+- This version omits timestamping in PDF filenames as directed.
+- GitHub deployment pending final PDF output validation.
