@@ -1,0 +1,3 @@
+@echo off
+python run_ffcr_modmed_v10_2k_TRIBBY_PATIENCE_PATCH.py
+pause
