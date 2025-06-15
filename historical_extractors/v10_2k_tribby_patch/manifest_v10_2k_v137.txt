@@ -1,0 +1,10 @@
+FFCR V10.2k TRIBBY PATIENCE PATCH – GUI v137 Bundle
+
+Included Files:
+- run_ffcr_modmed_v10_2k_TRIBBY_PATIENCE_PATCH_v137.py
+- launch_ffcr_v10_2k_v137.bat
+- manifest_v10_2k_v137.txt
+
+ChromeDriver Version: 137 (GUI)
+MRN: 1595525
+Logs and download evidence validated.
