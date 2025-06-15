@@ -1,0 +1,33 @@
+[18:48:12] Navigated to login page.
+[18:48:13] Clicked Practice Staff.
+[18:48:16] Submitted credentials.
+[18:48:16] Main app loaded.
+[18:48:21] MRN search for 1595525 triggered.
+[18:48:21] Patient selected from list.
+[18:48:22] Found 5 visit tabs.
+[18:48:22] Clicked visit tab: Sep-16-2024
+[18:48:26] [ERROR] Download failed for visit Sep-16-2024: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.70)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f151fe75+79173]
+	GetHandleVerifier [0x0x7ff7f151fed0+79264]
+	(No symbol) [0x0x7ff7f12d9e5a]
+	(No symbol) [0x0x7ff7f12c5c25]
+	(No symbol) [0x0x7ff7f12eac44]
+	(No symbol) [0x0x7ff7f13603c5]
+	(No symbol) [0x0x7ff7f1380922]
+	(No symbol) [0x0x7ff7f1358743]
+	(No symbol) [0x0x7ff7f13214c1]
+	(No symbol) [0x0x7ff7f1322253]
+	GetHandleVerifier [0x0x7ff7f17ea2ad+3004797]
+	GetHandleVerifier [0x0x7ff7f17e46fd+2981325]
+	GetHandleVerifier [0x0x7ff7f1803350+3107360]
+	GetHandleVerifier [0x0x7ff7f153a9fe+188622]
+	GetHandleVerifier [0x0x7ff7f154228f+219487]
+	GetHandleVerifier [0x0x7ff7f1528dc4+115860]
+	GetHandleVerifier [0x0x7ff7f1528f79+116297]
+	GetHandleVerifier [0x0x7ff7f150f528+11256]
+	BaseThreadInitThunk [0x0x7fff82e37374+20]
+	RtlUserThreadStart [0x0x7fff838dcc91+33]
+

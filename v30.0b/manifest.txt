@@ -1,0 +1,8 @@
+FFCR ModMed v30.0b Bundle Manifest
+===============================
+Included Files:
+
+- run_ffcr_modmed_v30_0b.py      : Python automation script (Patient Activity only)
+- launch_ffcr_v30_0b.bat         : Batch file to launch script
+- mrn_input_fastpath.xlsx        : Input spreadsheet (test MRNs only)
+- visit_activity/                : Folder for downloaded visit PDFs

@@ -1,0 +1,26 @@
+[18:50:13] Navigated to login page.
+[18:50:13] Clicked Practice Staff.
+[18:50:14] [FATAL ERROR] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.70)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f151fe75+79173]
+	GetHandleVerifier [0x0x7ff7f151fed0+79264]
+	(No symbol) [0x0x7ff7f12d9e5a]
+	(No symbol) [0x0x7ff7f12b20f1]
+	(No symbol) [0x0x7ff7f136017e]
+	(No symbol) [0x0x7ff7f1380922]
+	(No symbol) [0x0x7ff7f1358743]
+	(No symbol) [0x0x7ff7f13214c1]
+	(No symbol) [0x0x7ff7f1322253]
+	GetHandleVerifier [0x0x7ff7f17ea2ad+3004797]
+	GetHandleVerifier [0x0x7ff7f17e46fd+2981325]
+	GetHandleVerifier [0x0x7ff7f1803350+3107360]
+	GetHandleVerifier [0x0x7ff7f153a9fe+188622]
+	GetHandleVerifier [0x0x7ff7f154228f+219487]
+	GetHandleVerifier [0x0x7ff7f1528dc4+115860]
+	GetHandleVerifier [0x0x7ff7f1528f79+116297]
+	GetHandleVerifier [0x0x7ff7f150f528+11256]
+	BaseThreadInitThunk [0x0x7fff82e37374+20]
+	RtlUserThreadStart [0x0x7fff838dcc91+33]
+
