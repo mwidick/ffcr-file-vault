@@ -1,0 +1,12 @@
+FFCR ModMed v30.0b – Visit Activity Extractor (GUI Chrome v137)
+
+Included Files:
+- run_ffcr_modmed_v30_0b.py
+- launch_ffcr_v30_0b.bat
+- mrn_input_fastpath.xlsx
+- visit_log_summary.xlsx
+- manifest.txt
+
+ChromeDriver Version: 137 (GUI)
+MRNs: MM0000699461, MM0000333560
+Validated via Enforcer_007, Widick Bootstrap, and Commandments
