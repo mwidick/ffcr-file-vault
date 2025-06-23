@@ -1,0 +1,7 @@
+Bundle: ffcr_excelmod_v137_paginationfix
+Includes:
+- ffcr_excelmod_v137_paginationfix.py : Main FFCR ModMed extractor script with pagination fix
+- launch_ffcr_excelmod_v137_paginationfix.bat : Windows launcher for one-click execution
+- mrn_input.xlsx : Input file containing test MRNs
+- log.txt : Log output from prior session
+- manifest.txt : This file

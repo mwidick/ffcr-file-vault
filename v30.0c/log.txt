@@ -1,0 +1,153 @@
+[15:47:04] Navigated to login page.
+[15:47:05] Clicked Practice Staff.
+[15:47:09] Submitted credentials.
+[15:47:10] Main app loaded.
+[15:47:10] Processing MRN: MM0000333560
+[15:47:14] Patient selected from list.
+[15:47:15] Found 5 visit tabs.
+[15:47:15] Clicked visit tab: Jul-24-2024
+[15:47:19] Download link found: https://entaaf.ema.md/ema/pdf/downloadVisitNotePDF/EMA_20240724T190200_0000_MRNMM0000333560_PMS102353PAT000034112_PID14619223_Visit_Final.pdf?pid=AptDQYm0oFyDdxCPT1bCRqEyffth7V18RpbDC29tXLakK3BDAGKLa6_fnA5VIZ3MNXrcDCPq_iU=&vid=u2pFZ5tc3FR-DgF_UZlJLUvAzvG8XLVpDvbyHcAvBeASHR3roA3k8QuPCb2PfO74bFEI2ZB_uJs=
+[15:47:19] PDF downloaded: visit_activity\MM0000333560_Jul-24-2024.pdf
+[15:47:43] Clicked visit tab: Jul-24-2024
+[15:47:47] Download link found: https://entaaf.ema.md/ema/pdf/downloadVisitNotePDF/EMA_20240724T184100_0000_MRNMM0000333560_PMS102353PAT000034112_PID14619223_Visit_Final.pdf?pid=ePQv5bGmBB2zqxJPpioJ0H_eglyEEYXHvHgnvlDMoUoxBnLpewIBfAyk5lIqOY-2e_kZJ4XrzJM=&vid=XwhxzJ2nI8pchAPzfIYSfvj1MX1dxpSKVKFzV_Orkfp2xd-UEwU_7BJPDk2RO8CG_wZt43eq_Q8=
+[15:47:47] PDF downloaded: visit_activity\MM0000333560_Jul-24-2024.pdf
+[15:48:10] Clicked visit tab: Jun-21-2024
+[15:48:14] Download link found: https://entaaf.ema.md/ema/pdf/downloadVisitNotePDF/EMA_20240621T124313_0000_MRNMM0000333560_PMS102353PAT000034112_PID14619223_Visit_Final.pdf?pid=ebbgCaOC0btPVKv_YhTRPV8yGmCmvZy7nfZhG2UZDuYYkZqx272kPyK8LadsZpV82IENuxyIpPQ=&vid=byIouXKgoKCi-OiZW4HgMclUI0hPY2m0VDEzcQDG4BL0dgyr2W3ZGaK2cEbcQM20bo2Kxkr-SgY=
+[15:48:15] PDF downloaded: visit_activity\MM0000333560_Jun-21-2024.pdf
+[15:48:38] Clicked visit tab: Jan-22-2024
+[15:48:42] Download link found: https://entaaf.ema.md/ema/pdf/downloadVisitNotePDF/EMA_20240122T153732_0000_MRNMM0000333560_PMS102353PAT000034112_PID14619223_Visit_Final.pdf?pid=Fut7YNJpKG98LR_NRzDiERGjQT3dnpAUVol1Xi6uKT3E4HruG0aX9qlIWd7bP2zd4bWPBYTSBjU=&vid=Bgce7ocN9vqL9xsvpZCLOVjVTUPO_inSkP7YFOIDKmolKIe_e3fMXd-hQZeGo7wpXrWBIwYenGI=
+[15:48:42] PDF downloaded: visit_activity\MM0000333560_Jan-22-2024.pdf
+[15:49:06] Clicked visit tab: Jun-09-2021
+[15:49:10] Download link found: https://entaaf.ema.md/ema/pdf/downloadVisitNotePDF/EMA_20210609T202437_0000_MRNMM0000333560_PMS102353PAT000034112_PID14619223_Visit_Final.pdf?pid=JIISTq1-Fc7UuOP40uDQ4o2r3tI18zeDdgJGW9n30B2NmmLacvNUt2tiw4n9a5Vt1F-FOfVtmpA=&vid=HQQtZ0Iu6TcI7bBtDe2lll70j-Q10zG8OYAAtNqw0DkESiwCJcdt0JyX2SlrDFE1_zEG6oM3Yqc=
+[15:49:10] PDF downloaded: visit_activity\MM0000333560_Jun-09-2021.pdf
+[15:49:34] Processing MRN: MM0000699461
+[15:49:38] Patient selected from list.
+[15:49:39] Found 5 visit tabs.
+[15:49:39] Clicked visit tab: Jun-19-2025
+[15:50:14] [ERROR] Download failed for visit Jun-19-2025: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c505cda5+78885]
+	GetHandleVerifier [0x0x7ff7c505ce00+78976]
+	(No symbol) [0x0x7ff7c4e19bca]
+	(No symbol) [0x0x7ff7c4e70766]
+	(No symbol) [0x0x7ff7c4e70a1c]
+	(No symbol) [0x0x7ff7c4ec4467]
+	(No symbol) [0x0x7ff7c4e98bcf]
+	(No symbol) [0x0x7ff7c4ec122f]
+	(No symbol) [0x0x7ff7c4e98963]
+	(No symbol) [0x0x7ff7c4e616b1]
+	(No symbol) [0x0x7ff7c4e62443]
+	GetHandleVerifier [0x0x7ff7c5334eed+3061101]
+	GetHandleVerifier [0x0x7ff7c532f33d+3037629]
+	GetHandleVerifier [0x0x7ff7c534e592+3165202]
+	GetHandleVerifier [0x0x7ff7c507730e+186766]
+	GetHandleVerifier [0x0x7ff7c507eb3f+217535]
+	GetHandleVerifier [0x0x7ff7c50659b4+114740]
+	GetHandleVerifier [0x0x7ff7c5065b69+115177]
+	GetHandleVerifier [0x0x7ff7c504c368+10728]
+	BaseThreadInitThunk [0x0x7ff96c507374+20]
+	RtlUserThreadStart [0x0x7ff96df7cc91+33]
+
+[15:50:37] Clicked visit tab: Jan-08-2025
+[16:30:06] Navigated to login page.
+[16:30:08] Clicked Practice Staff.
+[16:30:11] Submitted credentials.
+[16:30:12] Main app loaded.
+[16:30:12] Processing MRN: MM0000333560
+[16:30:17] Patient selected from list.
+[16:30:47] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c505cda5+78885]
+	GetHandleVerifier [0x0x7ff7c505ce00+78976]
+	(No symbol) [0x0x7ff7c4e19bca]
+	(No symbol) [0x0x7ff7c4e70766]
+	(No symbol) [0x0x7ff7c4e70a1c]
+	(No symbol) [0x0x7ff7c4ec4467]
+	(No symbol) [0x0x7ff7c4e98bcf]
+	(No symbol) [0x0x7ff7c4ec122f]
+	(No symbol) [0x0x7ff7c4e98963]
+	(No symbol) [0x0x7ff7c4e616b1]
+	(No symbol) [0x0x7ff7c4e62443]
+	GetHandleVerifier [0x0x7ff7c5334eed+3061101]
+	GetHandleVerifier [0x0x7ff7c532f33d+3037629]
+	GetHandleVerifier [0x0x7ff7c534e592+3165202]
+	GetHandleVerifier [0x0x7ff7c507730e+186766]
+	GetHandleVerifier [0x0x7ff7c507eb3f+217535]
+	GetHandleVerifier [0x0x7ff7c50659b4+114740]
+	GetHandleVerifier [0x0x7ff7c5065b69+115177]
+	GetHandleVerifier [0x0x7ff7c504c368+10728]
+	BaseThreadInitThunk [0x0x7ff96c507374+20]
+	RtlUserThreadStart [0x0x7ff96df7cc91+33]
+
+[16:30:47] Found 5 visit tabs.
+[16:30:47] Clicked visit tab: Jul-24-2024
+[16:30:51] Triggered PDF download for visit: Jul-24-2024
+[16:31:02] Clicked visit tab: Jul-24-2024
+[16:31:06] Triggered PDF download for visit: Jul-24-2024
+[16:31:17] Clicked visit tab: Jun-21-2024
+[16:31:21] Triggered PDF download for visit: Jun-21-2024
+[16:31:32] Clicked visit tab: Jan-22-2024
+[16:31:36] Triggered PDF download for visit: Jan-22-2024
+[16:31:47] Clicked visit tab: Jun-09-2021
+[16:31:51] Triggered PDF download for visit: Jun-09-2021
+[16:32:03] Processing MRN: MM0000699461
+[16:32:07] Patient selected from list.
+[16:32:38] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c505cda5+78885]
+	GetHandleVerifier [0x0x7ff7c505ce00+78976]
+	(No symbol) [0x0x7ff7c4e19bca]
+	(No symbol) [0x0x7ff7c4e70766]
+	(No symbol) [0x0x7ff7c4e70a1c]
+	(No symbol) [0x0x7ff7c4ec4467]
+	(No symbol) [0x0x7ff7c4e98bcf]
+	(No symbol) [0x0x7ff7c4ec122f]
+	(No symbol) [0x0x7ff7c4e98963]
+	(No symbol) [0x0x7ff7c4e616b1]
+	(No symbol) [0x0x7ff7c4e62443]
+	GetHandleVerifier [0x0x7ff7c5334eed+3061101]
+	GetHandleVerifier [0x0x7ff7c532f33d+3037629]
+	GetHandleVerifier [0x0x7ff7c534e592+3165202]
+	GetHandleVerifier [0x0x7ff7c507730e+186766]
+	GetHandleVerifier [0x0x7ff7c507eb3f+217535]
+	GetHandleVerifier [0x0x7ff7c50659b4+114740]
+	GetHandleVerifier [0x0x7ff7c5065b69+115177]
+	GetHandleVerifier [0x0x7ff7c504c368+10728]
+	BaseThreadInitThunk [0x0x7ff96c507374+20]
+	RtlUserThreadStart [0x0x7ff96df7cc91+33]
+
+[16:32:38] Found 5 visit tabs.
+[16:32:38] Clicked visit tab: Jun-19-2025
+[16:33:12] [ERROR] Download click failed for visit Jun-19-2025: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c505cda5+78885]
+	GetHandleVerifier [0x0x7ff7c505ce00+78976]
+	(No symbol) [0x0x7ff7c4e19bca]
+	(No symbol) [0x0x7ff7c4e70766]
+	(No symbol) [0x0x7ff7c4e70a1c]
+	(No symbol) [0x0x7ff7c4ec4467]
+	(No symbol) [0x0x7ff7c4e98bcf]
+	(No symbol) [0x0x7ff7c4ec122f]
+	(No symbol) [0x0x7ff7c4e98963]
+	(No symbol) [0x0x7ff7c4e616b1]
+	(No symbol) [0x0x7ff7c4e62443]
+	GetHandleVerifier [0x0x7ff7c5334eed+3061101]
+	GetHandleVerifier [0x0x7ff7c532f33d+3037629]
+	GetHandleVerifier [0x0x7ff7c534e592+3165202]
+	GetHandleVerifier [0x0x7ff7c507730e+186766]
+	GetHandleVerifier [0x0x7ff7c507eb3f+217535]
+	GetHandleVerifier [0x0x7ff7c50659b4+114740]
+	GetHandleVerifier [0x0x7ff7c5065b69+115177]
+	GetHandleVerifier [0x0x7ff7c504c368+10728]
+	BaseThreadInitThunk [0x0x7ff96c507374+20]
+	RtlUserThreadStart [0x0x7ff96df7cc91+33]
+
+[16:33:15] Clicked visit tab: Jan-08-2025
+[16:33:19] Triggered PDF download for visit: Jan-08-2025
+[16:33:30] Clicked visit tab: Dec-19-2024
+[16:33:34] Triggered PDF download for visit: Dec-19-2024
+[16:33:45] Clicked visit tab: Sep-22-2024
+[16:33:49] Triggered PDF download for visit: Sep-22-2024
+[16:34:00] Clicked visit tab: Aug-28-2024
+[16:34:04] Triggered PDF download for visit: Aug-28-2024
+[16:34:18] Browser closed.
