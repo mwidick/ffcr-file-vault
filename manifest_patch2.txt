@@ -1,0 +1,5 @@
+FFCR Attachments Extractor Test Bundle - v22.0i Patch 2
+====================================================
+- run_ffcr_modmed_v22_0i_patch2.py       : Attachments extractor (Chrome v137 allowed, warning only)
+- run_ffcr_modmed_v22_0i_patch2_launcher.bat : Batch launcher
+- manifest_patch2.txt                    : Description
