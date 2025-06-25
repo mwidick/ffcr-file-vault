@@ -1,0 +1,9 @@
+Manifest for FFCR v22.0i Patch 2 Gold
+
+Files Included:
+- run_ffcr_modmed_v22_0i_patch2_v137a_gold.py : Main Python script (SHA256: 990d0e4ebf7eabf7c5633ccb035979d2ef3daf0e7eb39859459e34c4961fef1a)
+- manifest.txt : Bundle description and file list
+- README.md : Functional and technical summary
+
+Purpose:
+Validated dual-mode extractor with full login, MRN Excel input, and verified PDF downloads.
