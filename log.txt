@@ -1,0 +1,102 @@
+[22:30:52] Navigated to login page.
+[22:30:52] Clicked Practice Staff.
+[22:30:55] Submitted credentials.
+[22:30:56] Main app loaded.
+[22:30:56] Processing MRN: MM0000333560
+[22:31:01] Patient selected from list.
+[22:31:31] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725f66f65+76917]
+	GetHandleVerifier [0x0x7ff725f66fc0+77008]
+	(No symbol) [0x0x7ff725d19dea]
+	(No symbol) [0x0x7ff725d70256]
+	(No symbol) [0x0x7ff725d7050c]
+	(No symbol) [0x0x7ff725dc3887]
+	(No symbol) [0x0x7ff725d984af]
+	(No symbol) [0x0x7ff725dc065c]
+	(No symbol) [0x0x7ff725d98243]
+	(No symbol) [0x0x7ff725d61431]
+	(No symbol) [0x0x7ff725d621c3]
+	GetHandleVerifier [0x0x7ff72623d29d+3051437]
+	GetHandleVerifier [0x0x7ff7262378f3+3028483]
+	GetHandleVerifier [0x0x7ff72625588d+3151261]
+	GetHandleVerifier [0x0x7ff725f8182e+185662]
+	GetHandleVerifier [0x0x7ff725f896ef+218111]
+	GetHandleVerifier [0x0x7ff725f6fae4+112628]
+	GetHandleVerifier [0x0x7ff725f6fc99+113065]
+	GetHandleVerifier [0x0x7ff725f56c68+10616]
+	BaseThreadInitThunk [0x0x7fff3d937374+20]
+	RtlUserThreadStart [0x0x7fff3ee1cc91+33]
+
+[22:31:31] Found 5 visit tabs.
+[22:31:31] Clicked visit tab: Jul-24-2024
+[22:31:35] Triggered PDF download for visit: Jul-24-2024
+[22:31:47] Clicked visit tab: Jul-24-2024
+[22:31:51] Triggered PDF download for visit: Jul-24-2024
+[22:32:02] Clicked visit tab: Jun-21-2024
+[22:32:06] Triggered PDF download for visit: Jun-21-2024
+[22:32:18] Clicked visit tab: Jan-22-2024
+[22:32:22] Triggered PDF download for visit: Jan-22-2024
+[22:32:33] Clicked visit tab: Jun-09-2021
+[22:32:37] Triggered PDF download for visit: Jun-09-2021
+[22:32:48] Processing MRN: MM0000699461
+[22:32:53] Patient selected from list.
+[22:33:23] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725f66f65+76917]
+	GetHandleVerifier [0x0x7ff725f66fc0+77008]
+	(No symbol) [0x0x7ff725d19dea]
+	(No symbol) [0x0x7ff725d70256]
+	(No symbol) [0x0x7ff725d7050c]
+	(No symbol) [0x0x7ff725dc3887]
+	(No symbol) [0x0x7ff725d984af]
+	(No symbol) [0x0x7ff725dc065c]
+	(No symbol) [0x0x7ff725d98243]
+	(No symbol) [0x0x7ff725d61431]
+	(No symbol) [0x0x7ff725d621c3]
+	GetHandleVerifier [0x0x7ff72623d29d+3051437]
+	GetHandleVerifier [0x0x7ff7262378f3+3028483]
+	GetHandleVerifier [0x0x7ff72625588d+3151261]
+	GetHandleVerifier [0x0x7ff725f8182e+185662]
+	GetHandleVerifier [0x0x7ff725f896ef+218111]
+	GetHandleVerifier [0x0x7ff725f6fae4+112628]
+	GetHandleVerifier [0x0x7ff725f6fc99+113065]
+	GetHandleVerifier [0x0x7ff725f56c68+10616]
+	BaseThreadInitThunk [0x0x7fff3d937374+20]
+	RtlUserThreadStart [0x0x7fff3ee1cc91+33]
+
+[22:33:23] Found 5 visit tabs.
+[22:33:23] Clicked visit tab: Jun-19-2025
+[22:33:58] [ERROR] Download click failed for visit Jun-19-2025: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725f66f65+76917]
+	GetHandleVerifier [0x0x7ff725f66fc0+77008]
+	(No symbol) [0x0x7ff725d19dea]
+	(No symbol) [0x0x7ff725d70256]
+	(No symbol) [0x0x7ff725d7050c]
+	(No symbol) [0x0x7ff725dc3887]
+	(No symbol) [0x0x7ff725d984af]
+	(No symbol) [0x0x7ff725dc065c]
+	(No symbol) [0x0x7ff725d98243]
+	(No symbol) [0x0x7ff725d61431]
+	(No symbol) [0x0x7ff725d621c3]
+	GetHandleVerifier [0x0x7ff72623d29d+3051437]
+	GetHandleVerifier [0x0x7ff7262378f3+3028483]
+	GetHandleVerifier [0x0x7ff72625588d+3151261]
+	GetHandleVerifier [0x0x7ff725f8182e+185662]
+	GetHandleVerifier [0x0x7ff725f896ef+218111]
+	GetHandleVerifier [0x0x7ff725f6fae4+112628]
+	GetHandleVerifier [0x0x7ff725f6fc99+113065]
+	GetHandleVerifier [0x0x7ff725f56c68+10616]
+	BaseThreadInitThunk [0x0x7fff3d937374+20]
+	RtlUserThreadStart [0x0x7fff3ee1cc91+33]
+
+[22:34:01] Clicked visit tab: Jan-08-2025
+[22:34:05] Triggered PDF download for visit: Jan-08-2025
+[22:34:16] Clicked visit tab: Dec-19-2024
+[22:34:20] Triggered PDF download for visit: Dec-19-2024
+[22:34:31] Clicked visit tab: Sep-22-2024
+[22:34:35] Triggered PDF download for visit: Sep-22-2024
+[22:34:46] Clicked visit tab: Aug-28-2024
+[22:34:50] Triggered PDF download for visit: Aug-28-2024
+[22:35:04] Browser closed.

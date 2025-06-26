@@ -1,6 +1,4 @@
-run_ffcr_modmed_v22_0i_a.py - Attachments-first script
-run_ffcr_modmed_v22_0i_b.py - Patient Activity-first script
-run_ffcr_modmed_v22_0i_goldcore.py - GoldCore baseline script
-launch_ffcr_selector.bat - Master launcher batch file
-mrn_input.xlsx - Excel file with MRNs (must have 'MRN' column)
+ffcr_visit_pdf_extractor_v30_0d_patch1.py - Main Python script
+mrn_input.xlsx - Excel file with MRNs
+launch_ffcr_v30_0d_patch1.bat - Double-click launcher
 manifest.txt - This file
