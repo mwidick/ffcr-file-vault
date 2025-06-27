@@ -1,0 +1,5 @@
+Bundle Contents:
+- ffcr_visit_pdf_extractor_v30_0d_patch1.py (Python script)
+- launch_ffcr_visit_pdf_extractor_v30_0d_patch1.bat (Batch launcher)
+- mrn_input.xlsx (Excel input with test MRNs)
+- manifest.txt (This file)

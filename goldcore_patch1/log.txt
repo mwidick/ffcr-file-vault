@@ -1,0 +1,140 @@
+[18:27:33] Navigated to login page.
+[18:27:34] Clicked Practice Staff.
+[18:27:36] Submitted credentials.
+[18:27:37] Main app loaded.
+[18:27:37] Processing MRN: MM0000333560
+[18:27:42] Patient selected from list.
+[18:28:12] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71e7f6f65+76917]
+	GetHandleVerifier [0x0x7ff71e7f6fc0+77008]
+	(No symbol) [0x0x7ff71e5a9dea]
+	(No symbol) [0x0x7ff71e600256]
+	(No symbol) [0x0x7ff71e60050c]
+	(No symbol) [0x0x7ff71e653887]
+	(No symbol) [0x0x7ff71e6284af]
+	(No symbol) [0x0x7ff71e65065c]
+	(No symbol) [0x0x7ff71e628243]
+	(No symbol) [0x0x7ff71e5f1431]
+	(No symbol) [0x0x7ff71e5f21c3]
+	GetHandleVerifier [0x0x7ff71eacd29d+3051437]
+	GetHandleVerifier [0x0x7ff71eac78f3+3028483]
+	GetHandleVerifier [0x0x7ff71eae588d+3151261]
+	GetHandleVerifier [0x0x7ff71e81182e+185662]
+	GetHandleVerifier [0x0x7ff71e8196ef+218111]
+	GetHandleVerifier [0x0x7ff71e7ffae4+112628]
+	GetHandleVerifier [0x0x7ff71e7ffc99+113065]
+	GetHandleVerifier [0x0x7ff71e7e6c68+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[18:28:12] Found 5 visit tabs.
+[18:28:12] Clicked visit tab: Jul-24-2024
+[18:28:16] Triggered PDF download for visit: Jul-24-2024
+[18:28:27] Clicked visit tab: Jul-24-2024
+[18:28:31] Triggered PDF download for visit: Jul-24-2024
+[18:28:42] Clicked visit tab: Jun-21-2024
+[18:28:46] Triggered PDF download for visit: Jun-21-2024
+[18:28:58] Clicked visit tab: Jan-22-2024
+[18:29:02] Triggered PDF download for visit: Jan-22-2024
+[18:29:13] Clicked visit tab: Jun-09-2021
+[18:29:17] Triggered PDF download for visit: Jun-09-2021
+[18:29:28] Processing MRN: MM0000699461
+[18:29:33] Patient selected from list.
+[18:30:03] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71e7f6f65+76917]
+	GetHandleVerifier [0x0x7ff71e7f6fc0+77008]
+	(No symbol) [0x0x7ff71e5a9dea]
+	(No symbol) [0x0x7ff71e600256]
+	(No symbol) [0x0x7ff71e60050c]
+	(No symbol) [0x0x7ff71e653887]
+	(No symbol) [0x0x7ff71e6284af]
+	(No symbol) [0x0x7ff71e65065c]
+	(No symbol) [0x0x7ff71e628243]
+	(No symbol) [0x0x7ff71e5f1431]
+	(No symbol) [0x0x7ff71e5f21c3]
+	GetHandleVerifier [0x0x7ff71eacd29d+3051437]
+	GetHandleVerifier [0x0x7ff71eac78f3+3028483]
+	GetHandleVerifier [0x0x7ff71eae588d+3151261]
+	GetHandleVerifier [0x0x7ff71e81182e+185662]
+	GetHandleVerifier [0x0x7ff71e8196ef+218111]
+	GetHandleVerifier [0x0x7ff71e7ffae4+112628]
+	GetHandleVerifier [0x0x7ff71e7ffc99+113065]
+	GetHandleVerifier [0x0x7ff71e7e6c68+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[18:30:03] Found 5 visit tabs.
+[18:30:03] Clicked visit tab: Jun-19-2025
+[18:30:37] [ERROR] Download click failed for visit Jun-19-2025: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71e7f6f65+76917]
+	GetHandleVerifier [0x0x7ff71e7f6fc0+77008]
+	(No symbol) [0x0x7ff71e5a9dea]
+	(No symbol) [0x0x7ff71e600256]
+	(No symbol) [0x0x7ff71e60050c]
+	(No symbol) [0x0x7ff71e653887]
+	(No symbol) [0x0x7ff71e6284af]
+	(No symbol) [0x0x7ff71e65065c]
+	(No symbol) [0x0x7ff71e628243]
+	(No symbol) [0x0x7ff71e5f1431]
+	(No symbol) [0x0x7ff71e5f21c3]
+	GetHandleVerifier [0x0x7ff71eacd29d+3051437]
+	GetHandleVerifier [0x0x7ff71eac78f3+3028483]
+	GetHandleVerifier [0x0x7ff71eae588d+3151261]
+	GetHandleVerifier [0x0x7ff71e81182e+185662]
+	GetHandleVerifier [0x0x7ff71e8196ef+218111]
+	GetHandleVerifier [0x0x7ff71e7ffae4+112628]
+	GetHandleVerifier [0x0x7ff71e7ffc99+113065]
+	GetHandleVerifier [0x0x7ff71e7e6c68+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[18:30:40] Clicked visit tab: Jan-08-2025
+[18:30:44] Triggered PDF download for visit: Jan-08-2025
+[18:30:55] Clicked visit tab: Dec-19-2024
+[18:30:59] Triggered PDF download for visit: Dec-19-2024
+[18:31:11] Clicked visit tab: Sep-22-2024
+[18:31:15] Triggered PDF download for visit: Sep-22-2024
+[18:31:26] Clicked visit tab: Aug-28-2024
+[18:31:30] Triggered PDF download for visit: Aug-28-2024
+[18:31:43] Browser closed.
+[20:08:17] Navigated to login page.
+[20:08:18] Clicked Practice Staff.
+[20:08:21] Submitted credentials.
+[20:08:22] Main app loaded.
+[20:08:22] Processing MRN: MM0000333560
+[20:46:32] Navigated to login page.
+[20:46:33] Clicked Practice Staff.
+[20:46:35] Submitted credentials.
+[20:46:36] Main app loaded.
+[20:46:36] Processing MRN: MM0000333560
+[20:46:41] Patient selected from list.
+[20:47:11] [WARNING] Pagination control failed or not present: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71e7f6f65+76917]
+	GetHandleVerifier [0x0x7ff71e7f6fc0+77008]
+	(No symbol) [0x0x7ff71e5a9dea]
+	(No symbol) [0x0x7ff71e600256]
+	(No symbol) [0x0x7ff71e60050c]
+	(No symbol) [0x0x7ff71e653887]
+	(No symbol) [0x0x7ff71e6284af]
+	(No symbol) [0x0x7ff71e65065c]
+	(No symbol) [0x0x7ff71e628243]
+	(No symbol) [0x0x7ff71e5f1431]
+	(No symbol) [0x0x7ff71e5f21c3]
+	GetHandleVerifier [0x0x7ff71eacd29d+3051437]
+	GetHandleVerifier [0x0x7ff71eac78f3+3028483]
+	GetHandleVerifier [0x0x7ff71eae588d+3151261]
+	GetHandleVerifier [0x0x7ff71e81182e+185662]
+	GetHandleVerifier [0x0x7ff71e8196ef+218111]
+	GetHandleVerifier [0x0x7ff71e7ffae4+112628]
+	GetHandleVerifier [0x0x7ff71e7ffc99+113065]
+	GetHandleVerifier [0x0x7ff71e7e6c68+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[20:47:11] Found 5 visit tabs.
+[20:47:11] Clicked visit tab: Jul-24-2024
+[20:47:15] Triggered PDF download for visit: Jul-24-2024
