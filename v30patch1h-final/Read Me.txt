@@ -1,0 +1,21 @@
+# FFCR Visit PDF Extractor - v30.0d_patch1h_final
+
+## Summary
+This is the final, validated bundle for the FFCR automation script (v30.0d patch1h) that:
+- Sets pagination to 100
+- Navigates multiple MRNs from Excel input
+- Downloads visit PDFs from ModMed's Patient Activity section
+- Validated using MRNs ending in 60 and 61
+
+## Usage
+1. Ensure Chrome v137 and matching ChromeDriver are installed.
+2. Place this bundle in `C:\FFCR_Project\Banner`
+3. Double-click the `.bat` file to launch.
+4. Monitor `log.txt` for extraction status.
+
+## Files
+- ffcr_visit_pdf_extractor_v30_0d_patch1h_final.py: Main Python automation script
+- ffcr_visit_pdf_extractor_v30_0d_patch1h_final.bat: Launch file
+- mrn_input.xlsx: MRN input file
+- log.txt: Run output log
+- manifest.txt: File descriptions

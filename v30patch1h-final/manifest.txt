@@ -1,0 +1,5 @@
+Bundle: ffcr_v30_0d_patch1k3d_bundle_20250702_014629.zip
+Python Script: ffcr_v30_0d_patch1k3d.py
+Batch Launcher: run_ffcr_v30_0d_patch1k3d.bat
+Excel MRN File: mrn_input.xlsx
+Manifest: manifest.txt

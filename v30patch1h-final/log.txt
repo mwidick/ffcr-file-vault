@@ -1,0 +1,117 @@
+[21:48:53] Navigated to login page.
+[21:48:54] Clicked Practice Staff.
+[21:48:55] Submitted credentials.
+[21:48:58] Main app loaded.
+[21:48:58] Processing MRN: MM0000333560
+[21:49:03] Patient selected from list.
+[21:49:05] [Pagination] Options found: ['5', '10', '25', '50', '100']
+[21:49:05] [Pagination] Set to 100 per page.
+[21:49:08] Found 8 visit tabs.
+[21:49:08] Clicked visit tab: Jul-24-2024
+[21:49:12] Triggered PDF download for visit: Jul-24-2024
+[21:49:24] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:49:26] Clicked visit tab: Jul-24-2024
+[21:49:30] Triggered PDF download for visit: Jul-24-2024
+[21:49:41] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:49:43] Clicked visit tab: Jun-21-2024
+[21:49:47] Triggered PDF download for visit: Jun-21-2024
+[21:49:58] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:50:00] Clicked visit tab: Jan-22-2024
+[21:50:05] Triggered PDF download for visit: Jan-22-2024
+[21:50:16] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:50:18] Clicked visit tab: Jun-09-2021
+[21:50:22] Triggered PDF download for visit: Jun-09-2021
+[21:50:33] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:50:35] Clicked visit tab: Mar-11-2021
+[21:50:40] Triggered PDF download for visit: Mar-11-2021
+[21:50:51] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:50:53] Clicked visit tab: Mar-11-2021
+[21:50:57] Triggered PDF download for visit: Mar-11-2021
+[21:51:08] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:51:10] Clicked visit tab: Mar-11-2021
+[21:51:14] Triggered PDF download for visit: Mar-11-2021
+[21:51:25] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[21:51:29] Browser closed.
+[22:13:31] Navigated to login page.
+[22:13:32] Clicked Practice Staff.
+[22:13:34] Submitted credentials.
+[22:13:35] Main app loaded.
+[22:13:35] Processing MRN: MM0000333560
+[22:13:39] Patient selected from list.
+[22:13:41] [Pagination] Options found: ['5', '10', '25', '50', '100']
+[22:13:41] [Pagination] Set to 100 per page.
+[22:13:44] Found 8 visit tabs.
+[22:13:44] Clicked visit tab: Jul-24-2024
+[22:13:49] Triggered PDF download for visit: Jul-24-2024
+[22:14:00] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:14:02] Clicked visit tab: Jul-24-2024
+[22:14:06] Triggered PDF download for visit: Jul-24-2024
+[22:14:17] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:14:19] Clicked visit tab: Jun-21-2024
+[22:14:24] Triggered PDF download for visit: Jun-21-2024
+[22:14:35] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:14:37] Clicked visit tab: Jan-22-2024
+[22:14:41] Triggered PDF download for visit: Jan-22-2024
+[22:14:52] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:14:54] Clicked visit tab: Jun-09-2021
+[22:14:58] Triggered PDF download for visit: Jun-09-2021
+[22:15:10] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:15:12] Clicked visit tab: Mar-11-2021
+[22:15:16] Triggered PDF download for visit: Mar-11-2021
+[22:15:27] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:15:29] Clicked visit tab: Mar-11-2021
+[22:15:33] Triggered PDF download for visit: Mar-11-2021
+[22:15:44] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:15:46] Clicked visit tab: Mar-11-2021
+[22:15:50] Triggered PDF download for visit: Mar-11-2021
+[22:16:02] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:16:04] Processing MRN: MM0000699461
+[22:16:09] Patient selected from list.
+[22:16:11] [Pagination] Options found: ['5', '10', '25', '50', '100']
+[22:16:11] [Pagination] Set to 100 per page.
+[22:16:14] Found 7 visit tabs.
+[22:16:14] Clicked visit tab: Jun-19-2025
+[22:16:18] Triggered PDF download for visit: Jun-19-2025
+[22:16:30] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:16:32] Clicked visit tab: Jan-08-2025
+[22:16:36] Triggered PDF download for visit: Jan-08-2025
+[22:16:47] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:16:49] Clicked visit tab: Dec-19-2024
+[22:16:53] Triggered PDF download for visit: Dec-19-2024
+[22:17:04] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:17:06] Clicked visit tab: Sep-22-2024
+[22:17:10] Triggered PDF download for visit: Sep-22-2024
+[22:17:22] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:17:24] Clicked visit tab: Aug-28-2024
+[22:17:28] Triggered PDF download for visit: Aug-28-2024
+[22:17:39] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:17:41] Clicked visit tab: May-08-2024
+[22:17:45] Triggered PDF download for visit: May-08-2024
+[22:17:56] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:17:59] Clicked visit tab: Feb-13-2024
+[22:18:33] [ERROR] Download click failed for visit Feb-13-2024: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61f936f95+76917]
+	GetHandleVerifier [0x0x7ff61f936ff0+77008]
+	(No symbol) [0x0x7ff61f6e9dea]
+	(No symbol) [0x0x7ff61f740256]
+	(No symbol) [0x0x7ff61f74050c]
+	(No symbol) [0x0x7ff61f793887]
+	(No symbol) [0x0x7ff61f7684af]
+	(No symbol) [0x0x7ff61f79065c]
+	(No symbol) [0x0x7ff61f768243]
+	(No symbol) [0x0x7ff61f731431]
+	(No symbol) [0x0x7ff61f7321c3]
+	GetHandleVerifier [0x0x7ff61fc0d2cd+3051437]
+	GetHandleVerifier [0x0x7ff61fc07923+3028483]
+	GetHandleVerifier [0x0x7ff61fc258bd+3151261]
+	GetHandleVerifier [0x0x7ff61f95185e+185662]
+	GetHandleVerifier [0x0x7ff61f95971f+218111]
+	GetHandleVerifier [0x0x7ff61f93fb14+112628]
+	GetHandleVerifier [0x0x7ff61f93fcc9+113065]
+	GetHandleVerifier [0x0x7ff61f926c98+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[22:18:37] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:18:41] Browser closed.

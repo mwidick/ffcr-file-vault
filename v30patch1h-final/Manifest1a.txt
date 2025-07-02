@@ -1,0 +1,10 @@
+FFCR Launch Bundle - v30.0d_patch1h_final
+-----------------------------------------
+Files included:
+
+1. ffcr_visit_pdf_extractor_v30_0d_patch1h_final.py   - Final verified Python extractor script
+2. ffcr_visit_pdf_extractor_v30_0d_patch1h_final.bat  - Batch launcher for easy execution
+3. mrn_input.xlsx                                     - Excel input file (MRNs ending in 60 and 61)
+4. log.txt                                            - Output log from successful run
+5. manifest.txt                                       - This manifest file
+6. README.txt                                         - GitHub readme file
