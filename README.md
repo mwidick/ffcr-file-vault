@@ -1,72 +1,33 @@
 
-# FFCR ModMed Extractor – TRIBBY PATIENCE PATCH (V10.2k)
+# FFCR Legacy Parser v1
 
-🚀 **First Confirmed Patient Activity PDF Extractor for ModMed**
+This is the original data parsing module used in FFCR to analyze operative reports extracted from ModMed.
 
-This version, `run_ffcr_modmed_v10_2k_TRIBBY_PATIENCE_PATCH_v137.py`, represents the earliest validated FFCR extractor that successfully:
+## Features
 
-- Navigates to the **Patient Activity tab**
-- Resolves direct download links for **visit PDFs**
-- Attempts authenticated PDF downloads using `requests.get()`
+- Uses OCR (Tesseract via PyMuPDF) to read PDF content
+- Extracts:
+  - Medical Record Number (MRN)
+  - Date of Birth (DOB)
+  - Date of Procedure
+  - Operative Side
+  - Diagnoses
+  - Fibrin/Foam technique mentions
+  - Audiometric results (pre/post)
+- Generates:
+  - case_summary.txt
+  - raw_hits_audit.txt
+  - full_text.txt
+  - FFCR_master_spreadsheet.csv (accumulative)
 
----
+## Launch Instructions
 
-## 🧠 Historical Significance
+Double-click `launch_ffcr.bat` or run `run_ffcr_local.py` in a Python 3.11+ environment with Tesseract and PyMuPDF installed.
 
-This script was validated through multiple runlogs dated **June 1, 2025**, for **MRN 1595525**:
+## Purpose
 
-- ✅ Log-confirmed navigation and tab detection
-- ✅ PDF download links resolved and captured
-- ✅ Files named by visit date: `1595525_Jul-18-2024.pdf`, `1595525_Sep-16-2024.pdf`
-- ⛔ Some downloaded files redirected to login splash pages — indicating a need for browser-based download vs. `requests`
-
-Despite this, **no other script prior to V10.2k** was confirmed to reach this depth within the Patient Activity extraction workflow.
-
----
-
-## 🛠 Technical Stack
-
-- Python `3.13`
-- ChromeDriver `v137` (GUI mode)
-- Selenium `4.x`
-- Direct PDF requests with `requests`
-- Screenshot/visit folders auto-created
-- Fully logs all actions with timestamps
+Used for retrospective analysis of tympanoplasty surgical outcomes and audiological improvement in FFCR cases.
 
 ---
-
-## 🔐 Preservation Commitments
-
-This script is:
-- Preserved permanently in the `ffcr-file-vault` repository
-- Marked as **core historical logic** — no modifications allowed
-- Referenced in FFCR Canvas as the `V10.2k TRIBBY PATIENCE PATCH`
-
----
-
-## 💾 Bundle Contents
-
-- `run_ffcr_modmed_v10_2k_TRIBBY_PATIENCE_PATCH_v137.py` — Main script
-- `launch_ffcr_v10_2k_v137.bat` — Windows launcher
-- `manifest_v10_2k_v137.txt` — Description of bundle components
-- `README.md` — This file
-
----
-
-## 🧬 Origin Logs (June 1, 2025)
-
-- [`log_2025-06-01_18-59-11_MRN1595525.txt`](../../logs/log_2025-06-01_18-59-11_MRN1595525.txt)
-- [`log_2025-06-01_19-17-19_MRN1595525.txt`](../../logs/log_2025-06-01_19-17-19_MRN1595525.txt)
-- [`log_2025-06-01_20-59-08_MRN1595525.txt`](../../logs/log_2025-06-01_20-59-08_MRN1595525.txt)
-
----
-
-## 🧾 Commit Message
-
-> Preserved V10.2k TRIBBY PATIENCE PATCH — first working Patient Activity extractor. Validated via MRN 1595525, logs confirm visit tab detection and PDF link capture. Session-auth download correction needed. Historical GoldCore baseline.
-
----
-
-This file will survive long after Gargantua fades into the white blink of entropy.
-
-– Dr. Mark Widick, FFCR Architect
+Dr. Mark Widick
+FFCR Project
