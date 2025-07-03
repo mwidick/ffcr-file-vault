@@ -1,0 +1,17 @@
+# FFCR Dual Extractor v30.0i Patch 1c
+
+This version includes:
+- Dual extraction (Patient Activity + Attachments tab)
+- MRN-aware file naming for Attachments
+- Pagination set to 100
+- Chrome path locked for v137
+- Debugged and validated using log trace
+
+Files included:
+- Python script
+- Batch launcher
+- Input Excel with test MRNs
+- Run log
+- Manifest
+
+Commit time: July 3, 2025 — 03:01 AM ET
