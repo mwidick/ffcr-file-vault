@@ -1,0 +1,83 @@
+[22:45:50] Navigated to login page.
+[22:45:50] Clicked Practice Staff.
+[22:45:54] Submitted credentials.
+[22:45:55] Main app loaded.
+[22:45:55] Processing MRN: MM0000699461
+[22:45:59] Patient selected from list.
+[22:46:01] [Pagination] Options found: ['5', '10', '25', '50', '100']
+[22:46:01] [Pagination] Set to 100 per page.
+[22:46:04] Found 7 visit tabs.
+[22:46:04] Clicked visit tab: Jun-19-2025
+[22:46:08] Triggered PDF download for visit: Jun-19-2025
+[22:46:19] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:46:21] Clicked visit tab: Jan-08-2025
+[22:46:25] Triggered PDF download for visit: Jan-08-2025
+[22:46:37] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:46:39] Clicked visit tab: Dec-19-2024
+[22:46:43] Triggered PDF download for visit: Dec-19-2024
+[22:46:54] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:46:56] Clicked visit tab: Sep-22-2024
+[22:47:00] Triggered PDF download for visit: Sep-22-2024
+[22:47:12] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:47:14] Clicked visit tab: Aug-28-2024
+[22:47:18] Triggered PDF download for visit: Aug-28-2024
+[22:47:29] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:47:31] Clicked visit tab: May-08-2024
+[22:47:35] Triggered PDF download for visit: May-08-2024
+[22:47:46] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:47:48] Clicked visit tab: Feb-13-2024
+[22:48:22] [ERROR] Download click failed for visit Feb-13-2024: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61f936f95+76917]
+	GetHandleVerifier [0x0x7ff61f936ff0+77008]
+	(No symbol) [0x0x7ff61f6e9dea]
+	(No symbol) [0x0x7ff61f740256]
+	(No symbol) [0x0x7ff61f74050c]
+	(No symbol) [0x0x7ff61f793887]
+	(No symbol) [0x0x7ff61f7684af]
+	(No symbol) [0x0x7ff61f79065c]
+	(No symbol) [0x0x7ff61f768243]
+	(No symbol) [0x0x7ff61f731431]
+	(No symbol) [0x0x7ff61f7321c3]
+	GetHandleVerifier [0x0x7ff61fc0d2cd+3051437]
+	GetHandleVerifier [0x0x7ff61fc07923+3028483]
+	GetHandleVerifier [0x0x7ff61fc258bd+3151261]
+	GetHandleVerifier [0x0x7ff61f95185e+185662]
+	GetHandleVerifier [0x0x7ff61f95971f+218111]
+	GetHandleVerifier [0x0x7ff61f93fb14+112628]
+	GetHandleVerifier [0x0x7ff61f93fcc9+113065]
+	GetHandleVerifier [0x0x7ff61f926c98+10616]
+	BaseThreadInitThunk [0x0x7ffb2fe37374+20]
+	RtlUserThreadStart [0x0x7ffb3055cc91+33]
+
+[22:48:26] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:48:28] Processing MRN: MM0000333560
+[22:48:33] Patient selected from list.
+[22:48:35] [Pagination] Options found: ['5', '10', '25', '50', '100']
+[22:48:35] [Pagination] Set to 100 per page.
+[22:48:38] Found 8 visit tabs.
+[22:48:38] Clicked visit tab: Jul-24-2024
+[22:48:42] Triggered PDF download for visit: Jul-24-2024
+[22:48:53] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:48:55] Clicked visit tab: Jul-24-2024
+[22:48:59] Triggered PDF download for visit: Jul-24-2024
+[22:49:11] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:49:13] Clicked visit tab: Jun-21-2024
+[22:49:17] Triggered PDF download for visit: Jun-21-2024
+[22:49:28] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:49:30] Clicked visit tab: Jan-22-2024
+[22:49:34] Triggered PDF download for visit: Jan-22-2024
+[22:49:46] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:49:48] Clicked visit tab: Jun-09-2021
+[22:49:52] Triggered PDF download for visit: Jun-09-2021
+[22:50:03] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:50:05] Clicked visit tab: Mar-11-2021
+[22:50:09] Triggered PDF download for visit: Mar-11-2021
+[22:50:20] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:50:22] Clicked visit tab: Mar-11-2021
+[22:50:26] Triggered PDF download for visit: Mar-11-2021
+[22:50:37] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:50:39] Clicked visit tab: Mar-11-2021
+[22:50:43] Triggered PDF download for visit: Mar-11-2021
+[22:50:54] [Pagination] Reasserted 100 per page after return (visible dropdown only).
+[22:50:59] Browser closed.

@@ -1,0 +1,5 @@
+ffcr_dual_extractor_v30_0i_patch1c_final.py - Main Python script
+run_ffcr_dual_extractor_v30_0i_patch1c_final.bat - Batch launcher
+mrn_input.xlsx - Excel input with MRNs
+log.txt - Run log
+manifest.txt - Manifest of contents
