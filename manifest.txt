@@ -1,5 +1,5 @@
-Bundle Contents:
-- ffcr_visit_pdf_extractor_v30_0d_patch1.py (Python script)
-- launch_ffcr_visit_pdf_extractor_v30_0d_patch1.bat (Batch launcher)
-- mrn_input.xlsx (Excel input with test MRNs)
-- manifest.txt (This file)
+ffcr_counselear_v1_patch2k_fix6_20250708_1505.py - Adds row click after patient search result
+launch_ffcr_counselear_v1_patch2k_fix6.bat - Batch launcher
+counselear_patients.xlsx - Patient names: Mark Widick, Test Chair
+counselear_credentials.xlsx - Login credentials
+manifest.txt - Bundle manifest
