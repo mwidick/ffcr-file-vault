@@ -1,0 +1,3 @@
+@echo off
+python ffcr_counselear_v1_patch2k_fix6a_info_click.py
+pause

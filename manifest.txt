@@ -1,5 +1,10 @@
-ffcr_counselear_v1_patch2k_fix6_20250708_1505.py - Adds row click after patient search result
-launch_ffcr_counselear_v1_patch2k_fix6.bat - Batch launcher
-counselear_patients.xlsx - Patient names: Mark Widick, Test Chair
-counselear_credentials.xlsx - Login credentials
-manifest.txt - Bundle manifest
+FFCR CounselEar v1 Patch2k Fix6a - Canon Respect Edition
+
+Includes:
+- ffcr_counselear_v1_patch2k_fix6a_info_click.py : Fixes patient_name KeyError by restoring Canon field
+- launch_ffcr_counselear_v1_patch2k_fix6a.bat    : Batch launcher
+- counselear_credentials.xlsx                     : Canon credentials
+- counselear_patients.xlsx                        : Canon patient names
+- manifest.txt                                    : This file
+
+Validated: Canon-respected. Bootstrap ready. Widick-compliant.
