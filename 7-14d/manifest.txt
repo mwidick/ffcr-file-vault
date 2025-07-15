@@ -1,0 +1,4 @@
+FFCR Counselear Patch2k Fix6b Bundle
+- Fullscreen launch attempt
+- InfoPanel enforced
+- Handles multiple MRNs

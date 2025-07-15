@@ -1,0 +1,2 @@
+python Ffcr_Counselear_V1_Patch2k_Fix6b_Info_Click.py
+pause
