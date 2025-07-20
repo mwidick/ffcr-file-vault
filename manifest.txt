@@ -1,10 +1,10 @@
-FFCR CounselEar v1 Patch2k Fix6a - Canon Respect Edition
+ffcr_counselear_dom_extract.py - Main Python script that logs into CounselEar, searches for patients from Excel,
+                                navigates to audiometric data, extracts the DOM content, and exports to Excel.
 
-Includes:
-- ffcr_counselear_v1_patch2k_fix6a_info_click.py : Fixes patient_name KeyError by restoring Canon field
-- launch_ffcr_counselear_v1_patch2k_fix6a.bat    : Batch launcher
-- counselear_credentials.xlsx                     : Canon credentials
-- counselear_patients.xlsx                        : Canon patient names
-- manifest.txt                                    : This file
+launch_ffcr_counselear_dom.bat - Launcher batch file to execute the script.
 
-Validated: Canon-respected. Bootstrap ready. Widick-compliant.
+counselear_credentials.xlsx - Excel file containing login credentials (column A: username, column B: password).
+
+counselear_patients.xlsx - Excel file with a column of Medical Record Numbers to search (column A).
+
+manifest.txt - This file.
