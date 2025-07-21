@@ -1,0 +1,3 @@
+@echo off
+python Ffcr_Counselear_GoldCore_Patched_v2A_DOMv2.py
+pause
