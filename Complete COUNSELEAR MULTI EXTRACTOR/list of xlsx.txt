@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.19045.6093]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Mark Widick>dir /s /b *.xlsx | findstr /i "audiometry parsed extracted master counsel ear ffcr"
+C:\Users\Mark Widick\AppData\Local\Temp\FFCR_Harvest_20250603_214240\FFCR_Data_Extraction_Workflow_Template.xlsx
+C:\Users\Mark Widick\AppData\Local\Temp\FFCR_Harvest_20250603_214240\FFCR_Test_MRNs.xlsx
+C:\Users\Mark Widick\AppData\Local\Temp\FFCR_Harvest_20250603_214240\FFCR_Test_MRNs_2025-05-24.xlsx
+C:\Users\Mark Widick\AppData\Local\Temp\FFCR_Harvest_20250603_214240\FFCR_Test_MRNs_MM_only.xlsx
+C:\Users\Mark Widick\AppData\Local\Temp\FFCR_Harvest_20250603_214240\FFCR_Test_MRNs_MM_only_cleaned.xlsx
+C:\Users\Mark Widick\Desktop\fibrin master\fibrin master\Fibrin_Foam_Master_Chart.xlsx
+C:\Users\Mark Widick\Desktop\fibrin master\__MACOSX\fibrin master\._Fibrin_Foam_Master_Chart.xlsx
+C:\Users\Mark Widick\Documents\GitHub\ffcr-file-vault\mrn_input.xlsx
+C:\Users\Mark Widick\Downloads\audiometry_data.xlsx
+C:\Users\Mark Widick\Downloads\audiometry_dynamic_ocr_dump.xlsx
+C:\Users\Mark Widick\Downloads\audiometry_extraction_sample.xlsx
+C:\Users\Mark Widick\Downloads\audiometry_extraction_sample_with_mrn.xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials (2).xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials(1).xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials.xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials_corrected(1).xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials_corrected(2).xlsx
+C:\Users\Mark Widick\Downloads\counselear_credentials_corrected.xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(1).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(2).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(3).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(4).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(5).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(6).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients(7).xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients.xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients_corrected.xlsx
+C:\Users\Mark Widick\Downloads\counselear_patients_from_column_E.xlsx
+C:\Users\Mark Widick\Downloads\FFCR_Data_Extraction_Workflow_Template.xlsx
+C:\Users\Mark Widick\Downloads\FFCR_Hybrid_Core_v18_Dependency_Tracker.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_output_v10_3p_results.xlsx
+C:\Users\Mark Widick\Downloads\FFCR_Test_MRNs_2025-05-24.xlsx
+C:\Users\Mark Widick\Downloads\Fibrin_Foam_Chart_With_All_Audiometry (1).xlsx
+C:\Users\Mark Widick\Downloads\Fibrin_Foam_Chart_With_All_Audiometry.xlsx
+C:\Users\Mark Widick\Downloads\Fibrin_Foam_Master_Chart.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_hdmi_attachment_extractor_v20.1b_bundle\test_mrns.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_modmed_v20_2a_bundle_final\mrns_input_v20_2a.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_modmed_v20_2a_core_bundle\mrns_input_v20.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_v30_0d_patch1b_paginationfix_bundle_20250630_0336\mrn_input.xlsx
+C:\Users\Mark Widick\Downloads\ffcr_v30_0d_patch1_bundle\mrn_input.xlsx
+C:\Users\Mark Widick\Dropbox\FFCR_Script_Harvest_20250603_214240\FFCR_Data_Extraction_Workflow_Template.xlsx
+C:\Users\Mark Widick\Dropbox\FFCR_Script_Harvest_20250603_214240\FFCR_Test_MRNs.xlsx
+C:\Users\Mark Widick\Dropbox\FFCR_Script_Harvest_20250603_214240\FFCR_Test_MRNs_2025-05-24.xlsx
+C:\Users\Mark Widick\Dropbox\FFCR_Script_Harvest_20250603_214240\FFCR_Test_MRNs_MM_only.xlsx
+C:\Users\Mark Widick\Dropbox\FFCR_Script_Harvest_20250603_214240\FFCR_Test_MRNs_MM_only_cleaned.xlsx
+C:\Users\Mark Widick\Dropbox\Processed Results\FFCR_master_spreadsheet.xlsx
+C:\Users\Mark Widick\iCloudDrive\EarLens_\Webinar Slides and Presenters Identified - ENTAAF Delray 8-22-22v2.xlsx
+
+C:\Users\Mark Widick>
+
