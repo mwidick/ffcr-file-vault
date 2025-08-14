@@ -1,0 +1,27 @@
+2025-08-14T19:38:53.150916 - ===== FFCR ModMed OperativeOnly+Pagination (Patched) Start =====
+2025-08-14T19:38:53.319069 - Loaded 2 MRNs from Excel.
+2025-08-14T19:38:59.458037 - Processing MRN: MM0000045357
+2025-08-14T19:39:00.023225 - [~] Modal dismissed.
+2025-08-14T19:39:04.374541 - [DL] Downloads allowed to: C:\FFCR_Project\Attachments_Multiple\Activity_PDF_Output\MM0000045357
+2025-08-14T19:39:04.374774 - Opening Attachments tab...
+2025-08-14T19:39:07.097481 - [PERPAGE] Selected '100' via ['value:number:100']; sig=('Stanford Chernett.pdf Stanford_Chernett.pdf\n6/27/25 4:11 PM', 'Mon 02/11/2019 14:37:21.001 EMA_20190211T193721_0000_PMS1271766_PID11929146_PatientImage.jpg\n2/11/19 2:37 PM', 51)
+2025-08-14T19:39:07.846106 - [MM0000045357] PAGE 1 rows=51
+2025-08-14T19:39:07.871807 - [FFCR-DBG3] No PDFs saved by normal pass → trying hardclick fallback
+2025-08-14T19:39:07.873381 - [DL] Downloads allowed to: C:\FFCR_Project\Attachments_Multiple\Activity_PDF_Output\MM0000045357
+2025-08-14T19:39:07.988995 - [FFCR-DBG3] Hardclick candidates: 1
+2025-08-14T19:39:08.940484 - [FFCR-DBG3] OP-SAVED via hardclick: EMA_20250305T213105_0000_MRNMM0000045357_PMS1271766_PID11929146_Operative_Report_SCAN.pdf
+2025-08-14T19:39:08.940804 - [MM0000045357] Saved 1 operative PDFs.
+2025-08-14T19:39:08.940921 - Processing MRN: MM0000174564
+2025-08-14T19:39:10.714505 - [~] Modal dismissed.
+2025-08-14T19:39:14.467635 - [DL] Downloads allowed to: C:\FFCR_Project\Attachments_Multiple\Activity_PDF_Output\MM0000174564
+2025-08-14T19:39:14.468062 - Opening Attachments tab...
+2025-08-14T19:39:16.790504 - [PERPAGE] Selected '100' via ['value:number:100']; sig=('2025 Hearing aid verification Insurance Mercado___Guadalupe-_MM0000174564.pdf\n7/28/25 2:52 PM', 'Insurance Verification Form Insurance Mercado__Guadalupe-_1480245.pdf\n1/9/24 10:39 AM', 80)
+2025-08-14T19:39:18.028796 - [MM0000174564] PAGE 1 rows=80
+2025-08-14T19:39:18.056601 - [FFCR-DBG3] No PDFs saved by normal pass → trying hardclick fallback
+2025-08-14T19:39:18.058106 - [DL] Downloads allowed to: C:\FFCR_Project\Attachments_Multiple\Activity_PDF_Output\MM0000174564
+2025-08-14T19:39:18.236161 - [FFCR-DBG3] Hardclick candidates: 1
+2025-08-14T19:39:18.988657 - [FFCR-DBG3] OP-SAVED via hardclick: EMA_20250305T212807_0000_MRNMM0000174564_PMS1480245_PID3843185_Operative_Report_SCAN.pdf
+2025-08-14T19:39:18.989328 - [MM0000174564] Saved 1 operative PDFs.
+2025-08-14T19:39:18.992718 - [CHECKSUM] Frozen SHA256:  cd215bcc7b343225fd9af717f182fefbcb4901f614e14274105581445bb9f5ea
+2025-08-14T19:39:18.992993 - [CHECKSUM] Modular SHA256: 1281908b9c9463a337a0bcf3b350c43fa14d4fda6be6cde4d06ba9a9924fe330
+2025-08-14T19:39:21.152877 - ===== FFCR ModMed OperativeOnly+Pagination (Patched) Finished =====
