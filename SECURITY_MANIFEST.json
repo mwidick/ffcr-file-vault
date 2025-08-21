@@ -1,0 +1,18 @@
+{
+  "files": {
+    "src/FASTALL_OperativeOnly_Pagination_MARKED_patched(4)_PATCH4c_HARDGET_FIX4.py": {
+      "sha256_full": "633b3586ebf94cab358d4a68fac0f535b87ca095b8d9f26741628c3bcb4e75d3",
+      "sha256_frozen": "77c6fdaaf61f311da53e0793c710a96daaf4b0b0a953c68ef8d250f716226e9e",
+      "sha256_modular": "77c6fdaaf61f311da53e0793c710a96daaf4b0b0a953c68ef8d250f716226e9e"
+    },
+    "tools/Run_FFCR_Fix4_GOLD.bat": {
+      "note": "verbatim from user upload"
+    },
+    "docs/verify_freeze_modular_hashes.py": {
+      "purpose": "validate full/frozen/modular against canon"
+    },
+    "docs/README.md": {
+      "purpose": "usage and verification instructions"
+    }
+  }
+}
