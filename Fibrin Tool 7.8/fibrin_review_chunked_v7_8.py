@@ -1,0 +1,1 @@
+# v7.8 placeholder script with ZIP support

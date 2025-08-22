@@ -1,0 +1,1 @@
+Fibrin Chart Review v8.1 — Full OCR, structured output, keyword hit summary, CSV update, and detailed per-case logging.

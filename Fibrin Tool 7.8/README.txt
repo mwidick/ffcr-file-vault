@@ -1,0 +1,1 @@
+Fibrin Chart Review v7.8 — Direct .zip file support in Incoming Cases with auto-unzip and structured OCR output.
