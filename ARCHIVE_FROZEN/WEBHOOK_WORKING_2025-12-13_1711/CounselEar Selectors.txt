@@ -1,0 +1,31 @@
+search window
+
+<input name="header$secureTopMenu$lookup$txtLookup" type="text" maxlength="50" id="header_secureTopMenu_lookup_txtLookup" autocomplete="off" class="SearchDefaultState">
+
+
+
+grid window
+
+<td>INACTIVE Melodi Fehl, M.A. [DEACTIVATED]</td>
+
+
+Appts/Visits
+
+<span class="ceLocaleKeyElement" data-celocale="en" data-celocalekey="Visits">Visits</span>
+
+
+visits
+
+<td class="innerTableCell" align="left" valign="top">Trisha Formichetti, Au.D.<br>INACTIVE Melodi Fehl, M.A. [DEACTIVATED]</td>
+
+
+Save
+
+
+<input type="submit" name="ctl01$btnSubmit" value="Save" onclick="disableButton('ctl01_btnSubmit');__doPostBack('ctl01$btnSubmit','');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl01$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl01_btnSubmit" class="dvFormButtonLong ui-button ui-widget ui-state-default ui-corner-all" role="button">
+
+
+
+Back - Patient Administratin
+
+<input name="ctl01$btnCancel" type="button" id="ctl01_btnCancel" class="dvFormButtonLong ui-button ui-widget ui-state-default ui-corner-all" value="Back - Patient Administration" role="button">

@@ -1,0 +1,5 @@
+This snapshot captures the first confirmed working
+CounselEAR Patient Visit Updated webhook flow
+after re-enabling the trigger on 2025-12-13.
+
+Not designated GoldCore.

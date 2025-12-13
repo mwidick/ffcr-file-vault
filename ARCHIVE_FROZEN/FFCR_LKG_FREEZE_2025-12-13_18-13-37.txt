@@ -1,0 +1,24 @@
+﻿FFCR CounselEar LKG Freeze Record (BWMoC-CounselEar-Laws-V1)
+Generated: 2025-12-13 18:13:37
+
+LKG WRAPPER
+  File:  C:\FFCR_Project\Counselear Project\MRN_Refresher\counselear_visit_refresher_TEST_v1d.py
+  SHA256: 3A5F05B4A12B882ED3FB0D655481AD1E19CAC9D04AE7E2563CC2391001F0BB5D
+
+LKG CORE (GoldCore)
+  File:  C:\FFCR_Project\Counselear Project\MRN_Refresher\counselear_visit_refresher_core_v2_GoldCore.py
+  SHA256: 4A54606963C739173F52B108EF16409AD86413E33DC40B1585070DE07B8724B1
+
+Locked behavior summary:
+- Wrapper: Patient Search -> SearchResults RadGrid row double-click -> Patient chart -> Visits tab -> Save(id ctl01_btnSubmit) -> Back(id ctl01_btnCancel)
+- Core:    Appts/Visits -> open visit -> Save -> Back -> repeat (VISIT-UPDATE when webhook config is correct)
+
+Frozen selectors:
+- Save id: ctl01_btnSubmit | XPath: //input[@type='submit' and @value='Save']
+- Back id: ctl01_btnCancel | XPath: //input[@type='button' and contains(@value, 'Back - Patient Administration')]
+- Visits header: //td[normalize-space()='Visits']
+- Visits rows:   ./ancestor::table[1]/following-sibling::table[1]
+
+Environment (do not change):
+- Chrome:      C:\FFCR_Project\Pair E\chrome-win64\chrome.exe
+- ChromeDriver:C:\FFCR_Project\Pair E\chromedriver-win64\chromedriver.exe
