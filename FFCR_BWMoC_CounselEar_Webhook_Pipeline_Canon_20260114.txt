@@ -1,0 +1,110 @@
+FFCR / BWMoC CANON NOTE — CounselEar Bone Conduction via Webhook Capture
+Last verified: 2026-01-13 (America/New_York)
+
+Goal
+- Capture VISIT-UPDATE webhook payloads from CounselEar (including bone conduction fields) by automating Visit -> Save for a worklist of MRNs.
+- Transport: CounselEar -> ngrok public URL -> local Flask receiver -> JSON files -> parser -> parsed_output CSVs.
+
+A) CANON FILES + PATHS (do not “improve” unless proven)
+1) Flask receiver (writes webhook_*.json):
+   C:\FFCR_Project\Counselear Project\Webhook receiver\webhook_receiver_ACTIVE__CLEAN_v2e_ArrayAware.py
+
+2) Visit-engine Selenium runner (triggers VISIT-UPDATE by Save):
+   Runner PS1:  C:\FFCR_Canon\01-Runnable\visit_engine\RUN_VISITROW_CANON_FIX1.ps1
+   Wrapper PY:  C:\FFCR_Canon\01-Runnable\visit_engine\counselear_visit_refresher_WRAPPER__CANON_VISITROW_FIX1.py
+   Core PY:     C:\FFCR_Canon\01-Runnable\visit_engine\counselear_visit_refresher_core_v2_GoldCore__CANON_VISITROW_FIX1.py
+
+   Worklist CSV (header MUST be MRN):
+   C:\FFCR_Project\Counselear Project\visit_engine\NO_AUDIO_WORKLIST.csv
+
+3) ngrok tunnel (public endpoint):
+   Public base:   https://chestiest-fernanda-polytonally.ngrok-free.dev
+   Webhook URL:   https://chestiest-fernanda-polytonally.ngrok-free.dev/webhook   (IMPORTANT: include /webhook)
+   Inspector UI:  http://127.0.0.1:4040/inspect/http
+
+4) Where incoming webhook JSON lands:
+   C:\FFCR_Project\Counselear Project\Webhook receiver\incoming_webhooks_CLEAN_<timestamp>\webhook_*.json
+
+   NOTE: output folder is controlled by env var FFCR_WEBHOOK_OUT_DIR.
+   GOLD RULE: set FFCR_WEBHOOK_OUT_DIR in the SAME PowerShell window BEFORE starting Flask,
+   or JSONs land somewhere else.
+
+5) Parser / outputs:
+   Parser:  C:\FFCR_Project\Counselear Project\Webhook receiver\FFCR_Audiogram_Parser_BY_ID_CANON_v1.py
+   Outputs: C:\FFCR_Project\Counselear Project\Webhook receiver\parsed_output\
+
+   Common outputs:
+   - FFCR_Audiograms_BY_ID_<stamp>.csv
+   - FFCR_HAS_BONE_<stamp>.csv
+   - FFCR_NO_AUDIO_<stamp>.csv
+   - FFCR_AIR_NORMAL_NO_BONE_OK_<stamp>.csv
+   - FFCR_AIR_ABNORMAL_NO_BONE_FLAG_<stamp>.csv
+   - FFCR_AUDIO_SENTINEL_STATS_<stamp>.csv
+   - FFCR_WEBHOOK_HAS_REAL_BONE_<stamp>.csv / FFCR_WEBHOOK_NO_REAL_BONE_<stamp>.csv (sentinel-based)
+
+6) MRN<->CounselEar ID mapping outputs:
+   C:\FFCR_Project\Counselear Project\MRN_Refresher\mapper\output\MRN_to_CounselEar_ID_MERGED_*.csv
+
+7) Coverage audit tool:
+   C:\FFCR_Project\Counselear Project\tools\audit_coverage_audiograms_v1.py
+
+
+B) “START FRESH” — THE THREE-CONSOLE RITUAL (receiver, tunnel, runner)
+You want 3 windows: (1) Flask receiver, (2) ngrok, (3) visit-engine runner.
+
+1) Flask receiver window (PowerShell)
+   cd "C:\FFCR_Project\Counselear Project\Webhook receiver"
+   $ts  = Get-Date -Format "yyyyMMdd_HHmmss"
+   $out = "C:\FFCR_Project\Counselear Project\Webhook receiver\incoming_webhooks_CLEAN_$ts"
+   New-Item -ItemType Directory -Force -Path $out | Out-Null
+   $env:FFCR_WEBHOOK_OUT_DIR = $out
+   $env:FFCR_WEBHOOK_OUT_DIR   # verify prints the folder
+   python ".\webhook_receiver_ACTIVE__CLEAN_v2e_ArrayAware.py"
+
+   Expected: “Running on http://127.0.0.1:5000 …”
+   Stop with Ctrl+C (this window will not accept other commands while Flask is running).
+
+2) ngrok window
+   ngrok http 5000
+
+   Expected:
+   - Forwarding: https://chestiest-fernanda-polytonally.ngrok-free.dev -> http://localhost:5000
+   - Web Interface: http://127.0.0.1:4040
+   Inspector: open http://127.0.0.1:4040/inspect/http
+
+3) CounselEar webhook setting (in CounselEar UI)
+   - Webhook URL MUST be: https://chestiest-fernanda-polytonally.ngrok-free.dev/webhook
+
+4) Runner window (PowerShell)
+   powershell -ExecutionPolicy Bypass -File "C:\FFCR_Canon\01-Runnable\visit_engine\RUN_VISITROW_CANON_FIX1.ps1" `
+     -Csv "C:\FFCR_Project\Counselear Project\visit_engine\NO_AUDIO_WORKLIST.csv"
+
+
+C) QUICK HEALTH CHECKS
+1) Confirm listener PID:
+   netstat -ano | findstr :5000
+   tasklist /FI "PID eq <PID_FROM_NETSTAT>"
+
+   (When killing: replace <PID> with a NUMBER — no angle brackets)
+   taskkill /PID 153528 /F
+
+2) Confirm ngrok->Flask path works:
+   iwr "https://chestiest-fernanda-polytonally.ngrok-free.dev/webhook" `
+     -Method POST -ContentType "application/json" -Body '{"test":"ping"}' -UseBasicParsing
+
+3) Confirm JSON growth:
+   $d = $env:FFCR_WEBHOOK_OUT_DIR
+   Get-ChildItem "$d\*.json" | Sort-Object LastWriteTime -Descending | Select-Object -First 5 LastWriteTime,Name,Length
+
+
+D) WHY YOU SOMETIMES SEE “BONE FIELDS” BUT “NO REAL BONE”
+- CounselEar often sends sentinel placeholders (e.g., -100000) for absent values.
+- “Real bone” means: boneConduction* keys exist AND at least one value is NOT sentinel/blank/null.
+- Tymp-only visits can have bone keys but still be RealBoneCount=0.
+
+E) ABOUT “IRONCLAD BWMoC”
+- I can remember the canon flow and key paths, but you should ALSO keep a local canon file + version control.
+- Recommended:
+  1) Save this note into: C:\FFCR_Project\BWMoC\FFCR_CANON_CounselEar_Webhook_Pipeline.txt
+  2) Commit that folder to a private GitHub repo (or any versioned backup you trust).
+  3) Treat Chat memory as a helpful index, not the only vault.
