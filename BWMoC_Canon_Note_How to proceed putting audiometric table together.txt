@@ -1,0 +1,101 @@
+BWMoC_Canon_Note:
+  title: "ModMed Attachments as Date-Truth Audiogram Source"
+  version: "v1.0"
+  date_created: "2026-01-26"
+  status: CANONICAL
+  scope: Audiometry + Operative Fusion
+  author_intent: Preserve provenance and prevent future misattribution
+
+  core_assertion:
+    statement: >
+      All date-true, surgery-aligned audiometric data originates from
+      Modernizing Medicine (ModMed) encounter attachments.
+    confidence: HIGH
+
+  source_system:
+    name: "Modernizing Medicine (ModMed)"
+    module: "Attachments"
+    content_type: "Audiogram PDFs"
+    acquisition_method: "Attachment extraction / OCR / structured parsing"
+    extraction_period: "Months prior to January 2026 (historical work)"
+
+  properties_of_modmed_attachment_audiograms:
+    date_truth:
+      description: >
+        Audiogram dates are authoritative encounter dates and align
+        precisely with operative timing (pre-op / post-op).
+      status: CANONICAL
+
+    surgical_alignment:
+      description: >
+        Audiograms are correctly associated with operative episodes
+        and require no temporal inference.
+      status: CANONICAL
+
+    air_conduction_data:
+      description: >
+        Air-conduction thresholds are present and clinically reliable.
+      status: CANONICAL
+
+    bone_conduction_data:
+      description: >
+        Bone-conduction data is absent, incomplete, or unreliable
+        in ModMed attachment audiograms.
+      status: NOT TRUSTED
+
+  explicit_exclusions:
+    - >
+      ModMed attachment audiograms MUST NOT be assumed to contain
+      reliable bone-conduction thresholds.
+    - >
+      Any bone data appearing in later fused tables did NOT originate
+      from ModMed attachments.
+
+  relationship_to_webhook_data:
+    webhook_role:
+      description: >
+        CounselEar VISIT-UPDATE webhooks are the authoritative source
+        of accurate bone-conduction thresholds.
+      role: AUGMENTATION_ONLY
+
+    fusion_principle:
+      description: >
+        Webhook bone data may be injected into ModMed-derived audiograms
+        ONLY via explicit fusion logic with provenance tracking.
+      rule_reference: "BWMoC Audiogram Fusion Rule (2026-01-24)"
+
+  artifact_classification:
+    modmed_derived_tables:
+      role: FOUNDATION
+      trust_level: HIGH
+      example_artifacts:
+        - "FFCR_OperativeSpine_FROM_PDF_GOLD_v1b_*.csv"
+
+    webhook_derived_tables:
+      role: MEASUREMENT_TRUTH (Bone)
+      trust_level: HIGH (Sparse)
+      example_artifacts:
+        - "FFCR_Audiograms_EARLEVEL_DEDUP_*.csv"
+
+    fused_or_joined_tables:
+      role: DERIVED / DISPOSABLE
+      trust_level: CONTEXTUAL
+      examples:
+        - "*FUSED*"
+        - "*JOIN*"
+        - "*QA*"
+
+  forbidden_future_assumptions:
+    - >
+      Do NOT treat fused audiogram tables as primary sources.
+    - >
+      Do NOT back-infer audiogram timing from webhook data.
+    - >
+      Do NOT discard ModMed attachment audiograms due to missing bone.
+
+  canonical_summary:
+    plain_language: >
+      ModMed attachments define WHEN audiograms occurred.
+      CounselEar webhooks define WHAT the bone thresholds were.
+      The final audiometric table must respect both truths without
+      inventing data or rewriting time.
