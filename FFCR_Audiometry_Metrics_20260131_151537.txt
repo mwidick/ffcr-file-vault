@@ -1,0 +1,27 @@
+FFCR Audiometry Outcomes Builder v1
+Timestamp: 20260131_151537
+
+Inputs:
+  Analytic spine: C:\FFCR_Project\Counselear Project\merged_output\FFCR_ANALYTIC_SPINE_MRN_ONLY_WITH_VISITDATE_v1b_20260131_150948.csv
+  Analytic spine SHA256: 3f3011cead1bbddbbb8fb306a44f0f5ef1bd534414cfa143525d11e48e25e8b5
+
+Assumptions (deterministic):
+  - Placeholder bone values -100000/-1000000 treated as NULL.
+  - PTA freqs = 500, 1000, 2000, 3000 Hz.
+  - Earliest/Latest selected by visit_date when available; otherwise stable order.
+
+Outputs:
+  TIDY: C:\FFCR_Project\Counselear Project\merged_output\FFCR_Audiometry_TIDY_ByEar_20260131_151537.csv
+  EARLIEST/LATEST: C:\FFCR_Project\Counselear Project\merged_output\FFCR_Audiometry_EarliestLatest_ByEar_20260131_151537.csv
+
+Counts:
+  Tidy rows (MRN x visit x ear): 106
+  Unique MRNs in tidy: 38
+  Unique MRN-ear pairs: 74
+  Rows with any BC present (PTA freqs): 106
+  Spine rows missing visit_date (if present in spine): 0
+
+Attestation (BWMoC):
+  - No modification to input files.
+  - No heuristic delimiter detection; CSV parsed explicitly.
+  - CSV outputs only (no Excel).
